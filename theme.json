@@ -1,0 +1,6 @@
+{
+  "name":        "My Awesome Mod",    // ← this is the display name Sine will show
+  "description": "Adds cool buttons.", // optional, but highly recommended
+  "version":     "0.1.0"              // also optional—used for update checks
+}
+
