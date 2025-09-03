@@ -6,11 +6,20 @@
     "property": "str8edge.tab_font_size",
     "type": "string"
   },
+
   {
-    "label": "Opacity of Unloaded  Tabs in Startup",
-    "defaultValue": "0.58",
+    "label": "Opacity of Unloaded Tab Name in Startup",
+    "defaultValue": "0.68",
     "placeholder": "1",
-    "property": "str8edge.pending_tab_opacity",
+    "property": "str8edge.pending_tab_name_opacity",
+    "type": "string"
+  },
+
+  {
+    "label": "Opacity of Unloaded Tab Icon in Startup",
+    "defaultValue": "0.48",
+    "placeholder": "1",
+    "property": "str8edge.pending_tab_icon_opacity",
     "type": "string"
   }
 ]

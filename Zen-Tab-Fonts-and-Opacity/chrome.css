@@ -6,8 +6,13 @@
     font-size: var(--str8edge-tab_font_size) !important;
   }
 
-  /*Pending Tab Opacity*/
-  .tabbrowser-tab[pending="true"] {
-    opacity: var(--str8edge-pending_tab_opacity) !important;
+  /*Pending Tab Name Opacity*/
+  .tabbrowser-tab[pending="true"] .tab-label-container{
+    opacity: var(--str8edge-pending_tab_name_opacity) !important;
+  }
+  
+  /*Pending Tab Icon Opacity*/
+  .tab-icon-image[pending="true"] {
+    opacity: var(--str8edge-pending_tab_icon_opacity) !important;
   }
 }

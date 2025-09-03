@@ -1,6 +1,6 @@
 {
     "name": "Unloaded Tab Opacity",
-    "description": "Control the opacity of the tab names and icons that are unloaded in the startup",
+    "description": "Control the opacity of the tab names and icons that are unloaded in the startup.",
     "author": "str8edge",
     "version": "0.5"
 }
