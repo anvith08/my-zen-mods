@@ -1,7 +1,7 @@
 [
   {
     "label": "Enable Custom Tab Font Size",
-    "defaultValue": false,
+    "defaultValue": "false",
     "property": "str8edge.enable_custom_tab_font_size",
     "type": "checkbox"
   },
