@@ -1,13 +1,13 @@
-/* TAB LABEL FONT SIZE */
 @-moz-document url-prefix("chrome:") {
+  /*Tab Font Size*/
   #tabbrowser-tabs tab .tab-label,
   #tabbrowser-tabs tab #tab-label-input {
     font-size: var(--str8edge-tab_title_fixes-font_size) !important;
   }
 
-  /* dim only the tabs that have pending="true" (i.e. the ones not yet loaded) */
-  /* #tabbrowser-tabs tab[pending="true"] .tab-icon-image, */
-  #tabbrowser-tabs tab[pending="true"] .tab-label-container .tab-icon-image {
-    opacity: calc(var(--str8edge-tab_title_fixes-pending_opacity) + 0.3) !important;
-  }
+  /*Pending Tab Opacity*/
+  .tabbrowser-tab[pending="true"] {
+    opacity: calc(var(--str8edge-pending_tab_opacity") !important;
+}
+ 
 }

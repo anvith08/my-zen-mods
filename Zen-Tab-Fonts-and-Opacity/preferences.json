@@ -1,16 +1,16 @@
 [
   {
-    "label": "Tab Name Font Size",
+    "label": "Tab Font Size",
     "defaultValue": "14px",
     "placeholder": "11px",
-    "property": "str8edge.tab_title_fixes.font_size",
+    "property": "str8edge.tab_font_size",
     "type": "string"
   },
   {
-    "label": "Icon and Name Opacity for Tabs not Loaded",
-    "defaultValue": "0.55",
+    "label": "Opacity of Unloaded  Tabs in Startup",
+    "defaultValue": "0.58",
     "placeholder": "1",
-    "property": "str8edge.tab_title_fixes.pending_opacity",
+    "property": "str8edge.pending_tab_opacity",
     "type": "string"
   }
 ]
