@@ -1,7 +1,7 @@
 @-moz-document url-prefix("chrome:") {
   /*Tab Font Size*/
    .tabbrowser-tab .tab-label {
-    font-size: var(--str8edge-custom-tab_font_size) !important;
+    font-size: var(--str8edge-custom_tab_font_size) !important;
   }
 
   /*Pending Tab Name Opacity*/
