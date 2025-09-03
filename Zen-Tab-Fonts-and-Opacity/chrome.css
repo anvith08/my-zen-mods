@@ -1,6 +1,6 @@
 @-moz-document url-prefix("chrome:") {
   /*Tab Font Size*/
-  :root[--str8edge-enable_custom_tab_font_size] .tabbrowser-tab .tab-label {
+  :root[--str8edge-enable_custom_tab_font_size="true"] .tabbrowser-tab .tab-label {
     font-size: var(--str8edge-custom-tab_font_size) !important;
   }
 
