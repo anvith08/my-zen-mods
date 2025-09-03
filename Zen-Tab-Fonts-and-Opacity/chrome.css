@@ -7,7 +7,7 @@
 
   /* dim only the tabs that have pending="true" (i.e. the ones not yet loaded) */
   /* #tabbrowser-tabs tab[pending="true"] .tab-icon-image, */
-  #tabbrowser-tabs tab[pending="true"] .tab-label-container {
+  #tabbrowser-tabs tab[pending="true"] .tab-label-container .tab-icon-image {
     opacity: calc(var(--str8edge-tab_title_fixes-pending_opacity) + 0.3) !important;
   }
 }
