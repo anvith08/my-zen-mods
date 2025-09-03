@@ -1,9 +1,16 @@
 [
   {
-    "label": "Tab Font Size",
+    "label": "Enable Custom Tab Font Size",
+    "defaultValue": false,
+    "property": "str8edge.enable_custom_tab_font_size",
+    "type": "boolean"
+  },
+
+  {
+    "label": "Custom Tab Font Size",
     "defaultValue": "14px",
-    "placeholder": "11px",
-    "property": "str8edge.tab_font_size",
+    "placeholder": "14px",
+    "property": "str8edge.custom_tab_font_size",
     "type": "string"
   },
 
