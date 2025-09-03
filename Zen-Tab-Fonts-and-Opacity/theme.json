@@ -1,6 +1,6 @@
 {
-    "name": "Unloaded Tab Opacity",
-    "description": "Control the opacity of the tab names and icons that are unloaded in the startup.",
+    "name": "Dim Inactive Tabs",
+    "description": "Control the opacity of the inactive tabs.",
     "author": "str8edge",
     "version": "0.5"
 }
