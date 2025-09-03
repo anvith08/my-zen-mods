@@ -5,7 +5,8 @@
   }
 
   /*Pending Tab Name Opacity*/
-  .tabbrowser-tab[pending="true"] .tab-label-container, .tabbrowser-tab[discarded=""] .tab-label-container {
+  .tabbrowser-tab[pending="true"] .tab-label-container,
+  .tabbrowser-tab[discarded=""] .tab-label-container {
     opacity: var(--str8edge-inactive_tab_name_opacity) !important;
     transition: opacity 0.3s ease-in-out;
   }
